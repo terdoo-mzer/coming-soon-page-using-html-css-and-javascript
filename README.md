@@ -20,4 +20,4 @@
 ## Author
 
 - Frontend Mentor - [@terdoo-mzer](https://www.frontendmentor.io/profile/terdoo-mzer)
-- Twitter - [@ymzer_terdoo](https://www.twitter.com/mzer_terdoo)
+- Twitter - [@mzer_terdoo](https://www.twitter.com/mzer_terdoo)
