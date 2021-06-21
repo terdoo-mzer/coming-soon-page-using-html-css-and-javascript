@@ -71,7 +71,7 @@ input[type=submit] {
 }
 
 #errMsg {
-    display: none;
+    display: block;
     font-size: 12px;
     color: #eb3535;
     padding-top: 5px;

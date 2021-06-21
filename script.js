@@ -12,22 +12,16 @@ userForm.addEventListener("submit", function(e){
     const regex = /^([^\s\@])+\@(([^\s\@\.])+\.)+([^\s\.]{2,})+$/gmi;
     const pattern = regex.test(userEmailValue);
 
-    // Check to see if user input matches regex
-    if(!pattern) {
-
-        // Add err class
+    
+    if(userEmailValue === "") {
+        err.textContent = "Whoops! It looks like you forgot to add your email" 
+    } else if(!pattern) {
+        err.textContent = "Please provide a valid email address!"
         userEmail.classList.add("err")
-       
-        // Display errMsg
-        err.style.display = "block";
         return false;
     } else {
-          // Remove errMsg
-          err.style.display = "none";
-
-           // Remove err class
+        err.style.display = "none";
         userEmail.classList.remove("err");
-
         alert("Success!");
     }
 
